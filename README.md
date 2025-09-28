@@ -48,7 +48,7 @@ Both breakout boards expose **all ESP32 GPIOs** through dual headers with silk-s
 
 
 <div align="center">
-  <img src="Assests\photo_2025-09-28_22-46-10.jpg" width="260">
+  <img src="Assests\photo_2025-09-28_22-46-10.jpg" width="700">
 </div>
 
 <p align="center">
