@@ -77,6 +77,6 @@ Standard green solder mask with HASL finish.
 
 Huge appreciation to **[PCBWay](https://www.pcbway.com/)** for fabricating my ESP32 breakout boards!  
 These boards required **accurate drill alignment** for the barrel jack and capacitors, and PCBWay delivered perfectly.  
-The **silkscreen clarity** also made every GPIO label easy to read — something that’s really important for quick prototyping.
+The **silkscreen clarity** also made every GPIO label easy to read something that’s really important for quick prototyping.
 
 This project wouldn’t have been possible without their generous support. If you’re looking to manufacture professional-grade PCBs at an affordable price, I highly recommend checking them out.
