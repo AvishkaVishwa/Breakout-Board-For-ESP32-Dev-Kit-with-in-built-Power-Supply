@@ -1,6 +1,10 @@
 # ESP32 & ESP32-S3 Breakout Boards with Onboard Power Supply
 
-This repository contains the KiCad 9 design files designed for the **ESP32 DevKit** and **ESP32-S3 DevKit**.  The boards include an **integrated power supply** based on the **LM2596S-5.0** buck converter, allowing direct 12V input to be regulated down to 5V for powering the ESP32 modules and peripherals.
+When I first started working with the ESP32 and ESP32-S3 DevKits, I noticed a small but frustrating problem: powering them reliably in real projects wasn’t always straightforward.
+Most of my projects used 12V supplies (robotics, IoT controllers, lab prototypes), but the DevKits expect 5V or 3.3V. That meant extra converters, messy wiring, and a lot of wasted time.
+
+So I decided to fix that.
+I designed these custom breakout boards with a built-in LM2596S-5.0 buck converter, letting me plug in a 12V source directly and instantly get stable 5V and 3.3V rails for the ESP32 and any peripherals.
 
 ---
 
