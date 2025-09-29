@@ -47,6 +47,19 @@ I designed these custom breakout boards with a built-in LM2596S-5.0 buck convert
 ## 📐 Pinout Overview
 Both breakout boards expose **all ESP32 GPIOs** through dual headers with silk-screened labels for quick prototyping.
 
+---
+## Behind the Build
+
+This was my very first attempt at making custom breakout boards with integrated power. I wanted a board that could accept 12 V directly and step it down to 5 V using the LM2596S buck converter, so I wouldn’t have to juggle external modules.
+
+- Fabrication Experience:
+PCBWay’s drill accuracy was especially important here because the DC barrel jack and large electrolytic capacitors needed exact hole alignment. The silkscreen clarity also made labeling all the ESP32 GPIOs readable at a glance, which is essential for prototyping.
+
+- Service Choices:
+2-layer board, 1 oz copper.
+Standard green solder mask with HASL finish.
+
+---
 
 ## 🎉 Special Thanks to PCBWay
 
